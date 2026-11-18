@@ -32,7 +32,7 @@ A versão recebida no desenvolvimento, documentada no notebook, tinha **190.944 
 
 Embora a URL termine em `.csv`, o arquivo recebido foi identificado pelo conteúdo binário como Excel. O carregamento do notebook detecta o formato efetivo.
 
-**Estado do arquivamento:** a cópia estática dos dados ainda não foi incluída neste repositório. Quando for disponibilizada, seu caminho e seu hash deverão ser acrescentados aqui. O código atual continua buscando a fonte original da ANP; o arquivo arquivado não constitui, por si só, um mecanismo alternativo automático de carregamento.
+**Cópia arquivada no repositório:** [dados-abertos-movimentacao-terminais-aquaviarios.xlsx](dados-abertos-movimentacao-terminais-aquaviarios.xlsx), na raiz da branch `main` (arquivo de 10.978.111 bytes, conforme metadados do GitHub). O hash SHA-256 desse arquivo arquivado **ainda precisa ser conferido** contra o hash da versão usada no desenvolvimento. O código atual continua buscando a fonte original da ANP; a cópia no GitHub não é carregada automaticamente.
 
 ## Como reproduzir
 
@@ -41,7 +41,7 @@ Embora a URL termine em `.csv`, o arquivo recebido foi identificado pelo conteú
 3. São usadas as bibliotecas **pandas**, **openpyxl** e **matplotlib**, além de módulos da biblioteca padrão do Python. As versões relevantes são impressas pelo notebook durante a execução.
 4. Garanta acesso à internet para baixar o arquivo da ANP pela URL indicada. O carregamento não depende de credenciais pessoais.
 5. Confira a impressão do SHA-256, a quantidade de linhas e os resultados. Se o hash diferir do valor de referência, a fonte pode ter sido atualizada: **não presuma reprodução numérica exata**.
-6. A execução integral em ambiente Colab novo deverá ser conferida e validada pelo autor antes da entrega.
+6. O autor informou ter executado todas as células, uma a uma, no Colab, sem erros. A validação em uma **sessão inteiramente nova**, com execução sequencial completa, continua recomendada antes da entrega.
 
 ## Escopo e procedimento
 
@@ -70,9 +70,10 @@ Os resultados descrevem movimentações informadas à ANP para o recorte, sem es
 ## Entrega
 
 Antes de submeter, verificar:
-- execução integral no Colab a partir de ambiente novo;
-- correspondência do hash do arquivo com a versão analisada;
+- [x] execução célula a célula no Colab sem erros, conforme informação do autor;
+- [ ] execução integral no Colab a partir de ambiente novo, se ainda não realizada;
+- [ ] correspondência do hash do arquivo arquivado com a versão analisada;
 - link do Colab, permissões e demais requisitos do ambiente da disciplina;
 - identificação do aluno, declaração de IA e commit válido para o prazo de entrega.
 
-**Status:** documentação de apoio em revisão; validação final de execução e entrega ainda não declarada.
+**Status:** dados arquivados no GitHub; execução célula a célula reportada pelo autor como bem-sucedida. Conferência do SHA-256, validação em ambiente novo e demais etapas de submissão ainda não concluídas.

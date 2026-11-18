@@ -32,7 +32,7 @@ A versão recebida no desenvolvimento, documentada no notebook, tinha **190.944 
 
 Embora a URL termine em `.csv`, o arquivo recebido foi identificado pelo conteúdo binário como Excel. O carregamento do notebook detecta o formato efetivo.
 
-**Cópia arquivada no repositório:** [dados-abertos-movimentacao-terminais-aquaviarios.xlsx](dados-abertos-movimentacao-terminais-aquaviarios.xlsx), na raiz da branch `main` (arquivo de 10.978.111 bytes, conforme metadados do GitHub). O hash SHA-256 desse arquivo arquivado **ainda precisa ser conferido** contra o hash da versão usada no desenvolvimento. O código atual continua buscando a fonte original da ANP; a cópia no GitHub não é carregada automaticamente.
+**Cópia arquivada no repositório:** [dados-abertos-movimentacao-terminais-aquaviarios.xlsx](dados-abertos-movimentacao-terminais-aquaviarios.xlsx), na raiz da branch `main` (arquivo de 10.978.111 bytes, conforme metadados do GitHub). O autor calculou o SHA-256 do arquivo arquivado no GitHub e informou o valor `5e4a123e8013fc9b36bfe54a58a4d8bcb7f5332eef89b7ec8e309cd92e0edc86`, **idêntico ao hash da versão usada no desenvolvimento**. A verificação foi executada pelo autor no Colab e comunicada em 18/11/2026. O código atual continua buscando a fonte original da ANP; a cópia no GitHub não é carregada automaticamente.
 
 ## Como reproduzir
 
@@ -72,8 +72,8 @@ Os resultados descrevem movimentações informadas à ANP para o recorte, sem es
 Antes de submeter, verificar:
 - [x] execução célula a célula no Colab sem erros, conforme informação do autor;
 - [ ] execução integral no Colab a partir de ambiente novo, se ainda não realizada;
-- [ ] correspondência do hash do arquivo arquivado com a versão analisada;
+- [x] correspondência do hash do arquivo arquivado com a versão analisada (conferência informada pelo autor em 18/11/2026);
 - link do Colab, permissões e demais requisitos do ambiente da disciplina;
 - identificação do aluno, declaração de IA e commit válido para o prazo de entrega.
 
-**Status:** dados arquivados no GitHub; execução célula a célula reportada pelo autor como bem-sucedida. Conferência do SHA-256, validação em ambiente novo e demais etapas de submissão ainda não concluídas.
+**Status:** dados arquivados no GitHub; execução célula a célula reportada pelo autor como bem-sucedida. SHA-256 conferido pelo autor, com igualdade ao valor registrado no notebook. Validação em ambiente novo e demais etapas de submissão ainda não concluídas.
